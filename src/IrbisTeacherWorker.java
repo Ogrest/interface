@@ -2,6 +2,7 @@ public class IrbisTeacherWorker implements ITeacherWorker {
 
     private String courseName = "Java";
 
+
     @Override
     public void teach(Student Student) {
         Student.learn(courseName);

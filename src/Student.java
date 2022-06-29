@@ -7,5 +7,7 @@ public class Student {
 
     void learn(String knowledge) {
     }
+    
+
 
 }

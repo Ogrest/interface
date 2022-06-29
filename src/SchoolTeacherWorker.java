@@ -1,6 +1,10 @@
 public class SchoolTeacherWorker implements ITeacherWorker {
     private String lessonName;
 
+    public SchoolTeacherWorker(String lessonName) {
+        this.lessonName = lessonName;
+    }
+
     @Override
     public void teach(Student student) {
         // вызывает speakWithOtherTeachers
